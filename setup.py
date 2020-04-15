@@ -23,7 +23,11 @@ setuptools.setup(
     include_package_data=True,
     python_requires='>=3.4',
     install_requires=[
-        # FIXME: Add dependencies
+        "systemrdl-compiler >= 1.12",
+        "peakrdl-ipxact",
+        "peakrdl-html",
+        "peakrdl-uvm",
+        "PyYAML >= 5.1",
     ],
     classifiers=(
         "Development Status :: 1 - Planning", # FIXME: move to production when ready
